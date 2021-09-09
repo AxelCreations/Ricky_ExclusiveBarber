@@ -1,0 +1,61 @@
+body {
+    background-color: #1d1d1d;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+}
+
+header .logo {
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    min-height: calc(100vh - 400px);
+    padding: 2rem 0;
+}
+
+footer {
+    background-color: #141414;
+    min-height: 110px;
+    padding: 2rem 0
+}
+
+footer .row {
+    height: 150px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+footer a span {
+    position: relative;
+    top: 5px
+}
+
+.card {
+    background-color: #1d1d1d;
+    border-color: white;
+}
+
+.card label {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+.price-title {
+    text-transform: uppercase;
+    font-weight: bolder;
+}

@@ -66,13 +66,28 @@ footer a span {
 }
 
 .working-hours-info-from {
-    background-color: black;
+    background-color: #111111;
     padding: 0.5rem 0.8rem;
     border-radius: 10px;
 }
 
 .working-hours-info-to {
-    background-color: black;
+    background-color: #111111;
     padding: 0.5rem 0.8rem;
     border-radius: 10px;
+}
+
+#haircuts-show {
+    background-image: url('../img/haircut-bg.jpg');
+}
+
+#haircuts-show .carousel-item {
+    text-align: center;
+}
+
+#haircuts-show .carousel-item img {
+    height: auto;
+    max-height: 1000px;
+    width: auto;
+    max-width: 100%;
 }

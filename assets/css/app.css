@@ -59,3 +59,20 @@ footer a span {
     text-transform: uppercase;
     font-weight: bolder;
 }
+
+.working-hours-title {
+    color: white;
+    margin-bottom: 0.9rem;
+}
+
+.working-hours-info-from {
+    background-color: black;
+    padding: 0.5rem 0.8rem;
+    border-radius: 10px;
+}
+
+.working-hours-info-to {
+    background-color: black;
+    padding: 0.5rem 0.8rem;
+    border-radius: 10px;
+}

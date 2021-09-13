@@ -1,9 +1,9 @@
 body {
     background-color: #1d1d1d;
     color: white;
+    font-size: 16px;
     margin: 0;
     padding: 0;
-    font-size: 16px;
 }
 
 header {
@@ -20,7 +20,7 @@ header .logo {
 
 main {
     min-height: calc(100vh - 400px);
-    padding: 2rem 0;
+    padding: 3rem 0 0 0;
 }
 
 footer {
@@ -35,9 +35,9 @@ footer .row {
 
 footer a {
     color: white;
-    text-decoration: none;
     font-size: 1.25rem;
     font-weight: bold;
+    text-decoration: none;
 }
 
 footer a span {
@@ -51,13 +51,13 @@ footer a span {
 }
 
 .card label {
-    text-transform: uppercase;
     font-size: 1.1rem;
+    text-transform: uppercase;
 }
 
 .price-title {
-    text-transform: uppercase;
     font-weight: bolder;
+    text-transform: uppercase;
 }
 
 .working-hours {
@@ -65,7 +65,7 @@ footer a span {
 }
 
 .working-hours-name {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     font-weight: bolder;
     margin-bottom: 2.5rem;
 }
@@ -95,9 +95,9 @@ footer a span {
 
 .working-hours-disclaimer {
     font-size: 1.2rem;
-    padding: 0 2rem;
-    font-weight: 600;
     font-style: italic;
+    font-weight: 600;
+    padding: 0 2rem;
 }
 
 #haircuts-show {
@@ -110,7 +110,14 @@ footer a span {
 
 #haircuts-show .carousel-item img {
     height: auto;
-    max-height: 1000px;
+    max-height: 800px;
+    max-width: 90%;
     width: auto;
-    max-width: 100%;
+}
+
+#haircuts-show .carousel-item video {
+    height: auto;
+    max-height: 800px;
+    max-width: 90%;
+    width: auto;
 }

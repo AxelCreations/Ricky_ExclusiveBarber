@@ -60,21 +60,44 @@ footer a span {
     font-weight: bolder;
 }
 
+.working-hours {
+    background-color: #141414;
+}
+
+.working-hours-name {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 2.5rem;
+}
+
+.working-hours-name svg {
+    position: relative;
+    top: -5px;
+}
+
 .working-hours-title {
     color: white;
+    font-weight: bolder;
     margin-bottom: 0.9rem;
 }
 
 .working-hours-info-from {
-    background-color: #111111;
-    padding: 0.5rem 0.8rem;
     border-radius: 10px;
+    background-color: #030303;
+    padding: 0.5rem 0.8rem;
 }
 
 .working-hours-info-to {
-    background-color: #111111;
-    padding: 0.5rem 0.8rem;
     border-radius: 10px;
+    background-color: #030303;
+    padding: 0.5rem 0.8rem;
+}
+
+.working-hours-disclaimer {
+    font-size: 1.2rem;
+    padding: 0 2rem;
+    font-weight: 600;
+    font-style: italic;
 }
 
 #haircuts-show {

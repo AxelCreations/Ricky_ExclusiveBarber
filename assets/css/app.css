@@ -30,7 +30,7 @@ footer {
 }
 
 footer .row {
-    height: 150px;
+    min-height: 100px;
 }
 
 footer a {
@@ -40,10 +40,6 @@ footer a {
     text-decoration: none;
 }
 
-footer a span {
-    position: relative;
-    top: 5px
-}
 
 .card {
     background-color: #1d1d1d;

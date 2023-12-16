@@ -26,7 +26,7 @@ main {
 footer {
     background-color: #141414;
     min-height: 110px;
-    padding: 2rem 0
+    padding: 2rem 0;
 }
 
 footer .row {
@@ -39,7 +39,6 @@ footer a {
     font-weight: bold;
     text-decoration: none;
 }
-
 
 .card {
     background-color: #1d1d1d;
@@ -97,7 +96,7 @@ footer a {
 }
 
 #haircuts-show {
-    background-image: url('../img/haircut-bg.jpg');
+    background-image: url("../img/haircut-bg.jpg");
 }
 
 #haircuts-show .carousel-item {
@@ -116,4 +115,35 @@ footer a {
     max-height: 800px;
     max-width: 90%;
     width: auto;
+}
+
+.action-box {
+    display: block;
+    border: 1px solid #141414;
+    display: flex;
+    gap: 16px;
+    font-size: 24px;
+    padding: 18px 16px;
+    border-radius: 18px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        height: 200px;
+    }
+
+    header .logo img {
+        height: 150px;
+    }
+
+    main#mobile-content {
+        height: calc(100vh - 200px);
+        padding-top: 16px;
+    }
 }
